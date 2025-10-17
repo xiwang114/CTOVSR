@@ -39,36 +39,37 @@ Our key innovation is the **"Real-world+"** data construction methodology, which
 
 The dataset is organized into training and testing sets with a clear directory structure:
 
-.
+```
 ├── CTOVSR/
 │   ├── gt/
 │   │   ├── 000/
 │   │   │   ├── 00000000.png
 │   │   │   └── ... (100 frames)
-│   │   └── ... (sequences 000 to 799)
+│   │   └── ... (sequences 000 to 799 for training)
 │   └── lq/
 │       ├── 000/
 │       │   ├── 00000000.png
 │       │   └── ... (100 frames)
-│       └── ... (sequences 000 to 799)
+│       └── ... (sequences 000 to 799 for training)
 │
 ├── CTOVSR_test/
 │   ├── gt/
-│   │   ├── 000/
+│   │   ├── 800/
 │   │   │   └── ... (100 frames)
-│   │   └── ... (sequences 000 to 099)
+│   │   └── ... (sequences 800 to 899 for testing)
 │   └── lq/
-│       ├── 000/
+│       ├── 800/
 │       │   └── ... (100 frames)
-│       └── ... (sequences 000 to 099)
+│       └── ... (sequences 800 to 899 for testing)
 │
 ├── REAL_test/
 │   └── lq/
 │       ├── 000/
 │       │   └── ... (100 frames)
-│       └── ... (8 real-world sequences)
+│       └── ... (8 real-world sequences for generalization testing)
 │
 └── metadata.csv
+```
 
 The metadata.csv file provides detailed information for each sequence, including the **source video/opera title**  and the specific **type of degradation** applied.
 
@@ -76,6 +77,7 @@ The metadata.csv file provides detailed information for each sequence, including
 
 If you use the CTOVSR dataset in your research, please cite our paper:
 
+```
 @article{your_citation_key,
   title={A Chinese Traditional Opera Video Super-Resolution Dataset Based on the "Real-world+" Degradation Fusion},
   author={Wang, Xi and Qin, Bingxin and Zhang, Yichi and Yang, Xinyu},
@@ -83,3 +85,5 @@ If you use the CTOVSR dataset in your research, please cite our paper:
   year={2024},
   % Add more details once published
 }
+```
+
