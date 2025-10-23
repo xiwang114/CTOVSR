@@ -54,19 +54,13 @@ The dataset is organized into training and testing sets with a clear directory s
 │
 ├── CTOVSR_test/
 │   ├── gt/
-│   │   ├── 800/
+│   │   ├── 000/
 │   │   │   └── ... (100 frames)
-│   │   └── ... (sequences 800 to 899 for testing)
-│   └── lq/
-│       ├── 800/
-│       │   └── ... (100 frames)
-│       └── ... (sequences 800 to 899 for testing)
-│
-├── REAL_test/
+│   │   └── ... (sequences 000 to 099 for testing)
 │   └── lq/
 │       ├── 000/
 │       │   └── ... (100 frames)
-│       └── ... (8 real-world sequences for generalization testing)
+│       └── ... (sequences 000 to 099 for testing)
 │
 └── metadata.csv
 ```
