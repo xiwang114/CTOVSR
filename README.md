@@ -1,7 +1,7 @@
-# CTOVSR: A Chinese Traditional Opera Video Super-Resolution Dataset
+# CTOVSR: A Chinese Traditional Opera Video Super-Resolution Dataset Based on the "Real-world+" Degradation Fusion
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Dataset Size](https://img.shields.io/badge/Dataset%20Size-XX%20GB-orange.svg)](https://your-science-data-bank-link.com)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Dataset Size](https://img.shields.io/badge/Dataset%20Size-157%20GB-orange.svg)](https://your-science-data-bank-link.com)
 [![Paper](https://img.shields.io/badge/Paper-Link%20to%20be%20added-brightgreen.svg)](https://your-paper-link.com)
 
 **CTOVSR** is a large-scale, high-quality dataset designed for the super-resolution of aged Chinese Traditional Opera videos. This project addresses the urgent need to digitally preserve and restore invaluable cultural heritage, much of which suffers from severe degradation due to aging, storage, and dissemination.
@@ -66,18 +66,3 @@ The dataset is organized into training and testing sets with a clear directory s
 ```
 
 The metadata.csv file provides detailed information for each sequence, including the **source video/opera title**  and the specific **type of degradation** applied.
-
-## 📜 Citation
-
-If you use the CTOVSR dataset in your research, please cite our paper:
-
-```
-@article{your_citation_key,
-  title={A Chinese Traditional Opera Video Super-Resolution Dataset Based on the "Real-world+" Degradation Fusion},
-  author={Wang, Xi and Qin, Bingxin and Zhang, Yichi and Yang, Xinyu},
-  journal={Scientific Data (To be submitted)},
-  year={2024},
-  % Add more details once published
-}
-```
-
