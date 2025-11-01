@@ -4,7 +4,7 @@
 [![Dataset Size](https://img.shields.io/badge/Dataset%20Size-157%20GB-orange.svg)](https://your-science-data-bank-link.com)
 [![Paper](https://img.shields.io/badge/Paper-Link%20to%20be%20added-brightgreen.svg)](https://your-paper-link.com)
 
-**CTOVSR** is a large-scale, high-quality dataset designed for the super-resolution of aged Chinese Traditional Opera videos. This project addresses the urgent need to digitally preserve and restore invaluable cultural heritage, much of which suffers from severe degradation due to aging, storage, and dissemination.
+**CTOVSR** ([Dataset Download Link](https://doi.org/10.57760/sciencedb.30218)) is a large-scale, high-quality dataset designed for the super-resolution of aged Chinese Traditional Opera videos. This project addresses the urgent need to digitally preserve and restore invaluable cultural heritage, much of which suffers from severe degradation due to aging, storage, and dissemination.
 
 ## 🌟 Introduction
 
